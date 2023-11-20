@@ -1,0 +1,344 @@
+[
+    {
+        "_id": "655b488d110fea406c31eaaa",
+        "email": "temple1@example.com",
+        "password": "hashedpassword1",
+        "place_name": "Sacred Temple 1",
+        "location": "123 Sacred Street, Sacred City, Country",
+        "approveStatus": true,
+        "religiousType": "Unknown",
+        "priest_list": [
+            {
+                "priest_id": "priest1",
+                "priest_name": "Father John",
+                "priest_details": "Spiritual Leader",
+                "_id": "655b488d110fea406c31eaab"
+            },
+            {
+                "priest_id": "priest2",
+                "priest_name": "Sister Mary",
+                "priest_details": "Counselor",
+                "_id": "655b488d110fea406c31eaac"
+            }
+        ],
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "__v": 0
+    },
+    {
+        "_id": "655b488d110fea406c31eaad",
+        "email": "temple2@example.com",
+        "password": "hashedpassword2",
+        "place_name": "Peaceful Shrine",
+        "location": "456 Tranquil Avenue, Tranquil City, Country",
+        "approveStatus": true,
+        "religiousType": "Buddhist",
+        "priest_list": [
+            {
+                "priest_id": "priest3",
+                "priest_name": "Zen Master",
+                "priest_details": "Meditation Guide",
+                "_id": "655b488d110fea406c31eaae"
+            },
+            {
+                "priest_id": "priest4",
+                "priest_name": "Lotus Flower",
+                "priest_details": "Chanting Instructor",
+                "_id": "655b488d110fea406c31eaaf"
+            }
+        ],
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "__v": 0
+    },
+    {
+        "_id": "655b488d110fea406c31eab0",
+        "email": "temple3@example.com",
+        "password": "hashedpassword3",
+        "place_name": "Divine Sanctuary",
+        "location": "789 Holy Lane, Divine City, Country",
+        "approveStatus": true,
+        "religiousType": "Christian",
+        "priest_list": [
+            {
+                "priest_id": "priest5",
+                "priest_name": "Pastor Michael",
+                "priest_details": "Sermon Speaker",
+                "_id": "655b488d110fea406c31eab1"
+            },
+            {
+                "priest_id": "priest6",
+                "priest_name": "Sister Angela",
+                "priest_details": "Choir Director",
+                "_id": "655b488d110fea406c31eab2"
+            }
+        ],
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "__v": 0
+    },
+    {
+        "_id": "655b488d110fea406c31eab3",
+        "email": "temple4@example.com",
+        "password": "hashedpassword4",
+        "place_name": "Mystical Pagoda",
+        "location": "890 Enigmatic Road, Mystical City, Country",
+        "approveStatus": false,
+        "religiousType": "Taoist",
+        "priest_list": [
+            {
+                "priest_id": "priest7",
+                "priest_name": "Master Li",
+                "priest_details": "Tai Chi Instructor",
+                "_id": "655b488d110fea406c31eab4"
+            },
+            {
+                "priest_id": "priest8",
+                "priest_name": "Oracle Wu",
+                "priest_details": "Fortune Teller",
+                "_id": "655b488d110fea406c31eab5"
+            }
+        ],
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "__v": 0
+    },
+    {
+        "_id": "655b488d110fea406c31eab6",
+        "email": "temple5@example.com",
+        "password": "hashedpassword5",
+        "place_name": "Serenity Chapel",
+        "location": "12 Calm Avenue, Serene City, Country",
+        "approveStatus": true,
+        "religiousType": "Catholic",
+        "priest_list": [
+            {
+                "priest_id": "priest9",
+                "priest_name": "Father James",
+                "priest_details": "Confession Guide",
+                "_id": "655b488d110fea406c31eab7"
+            },
+            {
+                "priest_id": "priest10",
+                "priest_name": "Sister Maria",
+                "priest_details": "Charity Organizer",
+                "_id": "655b488d110fea406c31eab8"
+            }
+        ],
+        "latitude": 41.8781,
+        "longitude": -87.6298,
+        "__v": 0
+    },
+    {
+        "_id": "655b48ef37858bbba896aef9",
+        "email": "temple6@example.com",
+        "password": "hashedpassword6",
+        "place_name": "Jedi Temple",
+        "location": "34 Forceful Street, Jedi City, Galaxy",
+        "approveStatus": true,
+        "religiousType": "Jedi",
+        "priest_list": [
+            {
+                "priest_id": "priest11",
+                "priest_name": "Master Yoda",
+                "priest_details": "Wise Teacher",
+                "_id": "655b48ef37858bbba896aefa"
+            },
+            {
+                "priest_id": "priest12",
+                "priest_name": "Knight Skywalker",
+                "priest_details": "Force Expert",
+                "_id": "655b48ef37858bbba896aefb"
+            }
+        ],
+        "latitude": 42.3601,
+        "longitude": -71.0589,
+        "__v": 0
+    },
+    {
+        "_id": "655b48ef37858bbba896aefc",
+        "email": "temple7@example.com",
+        "password": "hashedpassword7",
+        "place_name": "Enlightened Oasis",
+        "location": "45 Tranquil Path, Jedi Haven, Galaxy",
+        "approveStatus": true,
+        "religiousType": "Jedi",
+        "priest_list": [
+            {
+                "priest_id": "priest13",
+                "priest_name": "Master Kenobi",
+                "priest_details": "Guardian of Peace",
+                "_id": "655b48ef37858bbba896aefd"
+            },
+            {
+                "priest_id": "priest14",
+                "priest_name": "Ahsoka Tano",
+                "priest_details": "Skilled Warrior",
+                "_id": "655b48ef37858bbba896aefe"
+            }
+        ],
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "__v": 0
+    },
+    {
+        "_id": "655b48ef37858bbba896aeff",
+        "email": "temple8@example.com",
+        "password": "hashedpassword8",
+        "place_name": "Mystic Citadel",
+        "location": "56 Serene Avenue, Jedi Sanctuary, Galaxy",
+        "approveStatus": true,
+        "religiousType": "Jedi",
+        "priest_list": [
+            {
+                "priest_id": "priest15",
+                "priest_name": "Qui-Gon Jinn",
+                "priest_details": "Force Visionary",
+                "_id": "655b48ef37858bbba896af00"
+            },
+            {
+                "priest_id": "priest16",
+                "priest_name": "Padawan Aayla",
+                "priest_details": "Aspiring Jedi",
+                "_id": "655b48ef37858bbba896af01"
+            }
+        ],
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "__v": 0
+    },
+    {
+        "_id": "655b48ef37858bbba896af02",
+        "email": "temple9@example.com",
+        "password": "hashedpassword9",
+        "place_name": "Dark Citadel",
+        "location": "78 Shadowy Lane, Sith Realm, Galaxy",
+        "approveStatus": false,
+        "religiousType": "Sith",
+        "priest_list": [
+            {
+                "priest_id": "priest17",
+                "priest_name": "Darth Vader",
+                "priest_details": "Dark Lord of the Sith",
+                "_id": "655b48ef37858bbba896af03"
+            },
+            {
+                "priest_id": "priest18",
+                "priest_name": "Darth Sidious",
+                "priest_details": "Emperor of the Sith",
+                "_id": "655b48ef37858bbba896af04"
+            }
+        ],
+        "latitude": 41.8781,
+        "longitude": -87.6298,
+        "__v": 0
+    },
+    {
+        "_id": "655b48ef37858bbba896af05",
+        "email": "temple10@example.com",
+        "password": "hashedpassword10",
+        "place_name": "Shadowed Shrine",
+        "location": "89 Sinister Road, Sith Stronghold, Galaxy",
+        "approveStatus": false,
+        "religiousType": "Sith",
+        "priest_list": [
+            {
+                "priest_id": "priest19",
+                "priest_name": "Darth Maul",
+                "priest_details": "Sith Assassin",
+                "_id": "655b48ef37858bbba896af06"
+            },
+            {
+                "priest_id": "priest20",
+                "priest_name": "Asajj Ventress",
+                "priest_details": "Dark Disciple",
+                "_id": "655b48ef37858bbba896af07"
+            }
+        ],
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "__v": 0
+    },
+    {
+        "_id": "655b495e01713cf941c57b29",
+        "email": "temple11@example.com",
+        "password": "hashedpassword11",
+        "place_name": "Fourfold Sanctuary",
+        "location": "123 Meditation Lane, Tranquil City, Country",
+        "approveStatus": true,
+        "religiousType": "Unknown",
+        "priest_list": [
+            {
+                "priest_id": "priest21",
+                "priest_name": "Meditation Master",
+                "priest_details": "Guiding Inner Peace",
+                "_id": "655b495e01713cf941c57b2a"
+            },
+            {
+                "priest_id": "priest22",
+                "priest_name": "Serenity Guru",
+                "priest_details": "Calming the Mind",
+                "_id": "655b495e01713cf941c57b2b"
+            },
+            {
+                "priest_id": "priest23",
+                "priest_name": "Zen Sage",
+                "priest_details": "Balancing Energy",
+                "_id": "655b495e01713cf941c57b2c"
+            },
+            {
+                "priest_id": "priest24",
+                "priest_name": "Lotus Visionary",
+                "priest_details": "Seeing Beyond",
+                "_id": "655b495e01713cf941c57b2d"
+            }
+        ],
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "__v": 0
+    },
+    {
+        "_id": "655b495e01713cf941c57b2e",
+        "email": "temple12@example.com",
+        "password": "hashedpassword12",
+        "place_name": "Fivefold Shrine",
+        "location": "456 Peaceful Avenue, Tranquil City, Country",
+        "approveStatus": true,
+        "religiousType": "Buddhist",
+        "priest_list": [
+            {
+                "priest_id": "priest25",
+                "priest_name": "Harmony Monk",
+                "priest_details": "Chanting Harmony",
+                "_id": "655b495e01713cf941c57b2f"
+            },
+            {
+                "priest_id": "priest26",
+                "priest_name": "Mindfulness Master",
+                "priest_details": "Awakening Presence",
+                "_id": "655b495e01713cf941c57b30"
+            },
+            {
+                "priest_id": "priest27",
+                "priest_name": "Enlightenment Sage",
+                "priest_details": "Guiding Enlightenment",
+                "_id": "655b495e01713cf941c57b31"
+            },
+            {
+                "priest_id": "priest28",
+                "priest_name": "Nirvana Visionary",
+                "priest_details": "Transcending Reality",
+                "_id": "655b495e01713cf941c57b32"
+            },
+            {
+                "priest_id": "priest29",
+                "priest_name": "Bodhi Explorer",
+                "priest_details": "Journey to Bodhi",
+                "_id": "655b495e01713cf941c57b33"
+            }
+        ],
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "__v": 0
+    }
+]
