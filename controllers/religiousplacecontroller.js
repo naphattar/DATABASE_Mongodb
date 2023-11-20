@@ -2,8 +2,7 @@ const ReligiousPlace = require("../models/religiousplace");
 
 const addMockReligiousPlaces = async (req, res) => {
     try {
-      const religiousPlacesData = req.body.data;
-      
+      const religiousPlacesData  =  req.body.data;
       const insertedPlaces = await ReligiousPlace.insertMany(religiousPlacesData);
   
       res.status(201).json({

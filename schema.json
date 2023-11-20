@@ -1,38 +1,33 @@
 {
-    "type": "object",
-    "bsonType": "object",
-    "title": "Religious_Place",
-    "description": "Details of a religious place",
-    "required": [
-      "email", "password", "place_name", "location", "approveStatus", "religiousType", "priest_list"
-    ],
-    "properties": {
-      "email": { "bsonType": "string", "format": "email" },
-      "password": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
-      "place_name": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
-      "location": {
-        "bsonType": "string",
-        "minLength": 1,
-        "maxLength": 255,
-        "pattern": "^\\(\\d+,\\s*\\d+\\)$",
-        "description": "Location format should be '(number, number)'"
-      },
-      "approveStatus": { "bsonType": "bool", "default": false },
-      "religiousType": { "bsonType": "string", "default": "Unknown", "maxLength": 255 },
-      "priest_list": {
-        "bsonType": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "priest_id": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
-            "priest_name": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
-            "priest_details": { "bsonType": "string", "minLength": 1, "maxLength": 255 }
-          }
+  "type": "object",
+  "bsonType": "object",
+  "title": "Religious_Place",
+  "description": "Details of a religious place",
+  "required": [
+    "email", "password", "place_name", "location", "approveStatus", "religiousType", "priest_list", "latitude", "longitude"
+  ],
+  "properties": {
+    "email": { "bsonType": "string", "format": "email" },
+    "password": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
+    "place_name": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
+    "location": {"bsonType": "string","minLength": 1,"maxLength": 255  },
+    "approveStatus": { "bsonType": "bool", "default": false },
+    "religiousType": { "bsonType": "string", "default": "Unknown", "maxLength": 255 },
+    "priest_list": {
+      "bsonType": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "priest_id": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
+          "priest_name": { "bsonType": "string", "minLength": 1, "maxLength": 255 },
+          "priest_details": { "bsonType": "string", "minLength": 1, "maxLength": 255 }
         }
       }
     },
-    "patternProperties": {},
-    "minProperties": 7,
-    "dependencies": {}
-  }
-  
+    "latitude":{ "bsonType": "number", "minimum": -90, "maximum": 90 },
+    "longitude": { "bsonType": "number", "minimum": -180, "maximum": 180 }
+  },
+  "patternProperties": {},
+  "minProperties": 9,
+  "dependencies": {}
+}
